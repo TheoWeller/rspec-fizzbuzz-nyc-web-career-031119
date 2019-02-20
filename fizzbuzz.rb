@@ -6,6 +6,6 @@ elsif num % 5 == 0
 elsif num % 3 == 0
   "Fizz"
 else num % 3 != 0 && num % 5 != 0
-  false
+  nil
 end
 end
